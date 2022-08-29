@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(234, 165, 238);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 1rem;
+    margin-top: 50px;
+    padding: 3rem;
+    border-radius: 5px;
+    background-color: #101637;
+    max-width: 500px;
+    text-align: center;
+    border: 2px solid #50E3C9;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.score-box {
+    padding: 0 1rem 0 1rem;
+}
+
+.score-text {
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 900;
+    padding-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+.score-num {
+    width: 150px;
+    height: 150px;
+    background-color: #0F121B;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#scoreh-num {
+    /* padding-top: 70px; */
+    padding: auto;
+    padding-top: 50px;
+    color: #9D0F64;
+    font-size: 40px;
+}
+
+#scoreg-num {
+    /* padding-top: 70px; */
+    padding: auto;
+    padding-top: 50px;
+    color: #9D0F64;
+    font-size: 40px;
+}
+
+.score-btn {
+    display: flex;
+
+}
+
+#scoreh-btn1 {
+    border: 2px solid #50E3C9;
+    margin: 10px;
+    color: #50E3C9;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 0 20px 0 20px; */
+}
+
+#scoreh-btn2 {
+    border: 2px solid #50E3C9;
+    margin: 10px;
+    color: #50E3C9;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 0 20px 0 20px; */
+}
+
+#scoreh-btn3 {
+    border: 2px solid #50E3C9;
+    margin: 10px;
+    color: #50E3C9;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 0 20px 0 20px; */
+}
+
+#scoreg-btn1 {
+    border: 2px solid #50E3C9;
+    margin: 10px;
+    color: #50E3C9;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 0 20px 0 20px; */
+}
+
+#scoreg-btn2 {
+    border: 2px solid #50E3C9;
+    margin: 10px;
+    color: #50E3C9;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 0 20px 0 20px; */
+}
+
+#scoreg-btn3 {
+    border: 2px solid #50E3C9;
+    margin: 10px;
+    color: #50E3C9;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 0 20px 0 20px; */
+}
+
+#save-btn {
+    border: none;
+    margin-top: 20px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #101637;
+}
+
+#save-btn:hover {
+    border: 2px solid #50E3C9;
+    background: none;
+    color: #50E3C9;
+    cursor: pointer;
+    font-weight: 300;
+}
